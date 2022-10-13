@@ -3,6 +3,7 @@ const comment = require("../models/comment");
 
 module.exports = {
 
+
   createComment: async (req, res) => {
     try {
         // const commentUser = await User.findById(req.user.id);
